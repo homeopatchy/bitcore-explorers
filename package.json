@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "async": "^1.5.2",
-    "bitcore-lib": "^0.13.7",
+    "bitcore-lib": "git://github.com/eordano/bitcore-lib.git",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
