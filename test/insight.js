@@ -111,7 +111,7 @@ describe('Insight', function() {
       insight.requestGet = sinon.stub();
       insight.requestGet.onFirstCall().callsArgWith(1, null, {
         statusCode: 200
-      }, JSON.parse(MEAN_BLOCK_INFO));
+      }, MEAN_BLOCK_INFO);
     });
     it('is calculated correctly', function(callback) {
       insight.getMedianTime(function(err, res) {
