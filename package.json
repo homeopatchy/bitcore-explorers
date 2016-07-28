@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/bitpay/bitcore-explorers",
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "bitcore-build": "git://github.com/eordano/bitcore-build.git",
     "brfs": "^1.2.0",
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "async": "^1.5.2",
-    "bitcore-build": "https://github.com/eordano/bitcore-lib.git",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
